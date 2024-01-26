@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #cccbcb;
+    padding: 1rem;
+}
+.navbar .navbar-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-navigation .empresa a {
+    font-size: 1.4rem;
+    color: #242424;
+    font-weight: 700;
+}
+
+.navbar-navigation ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar-navigation ul li a {
+    padding: 0.5rem;
+    color: #000;
+    font-size: 0.950rem;
+    font-weight: 500;
+}
+
+/* HOVER */
+.navbar-navigation ul li:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+.content .about {
+    margin-left: 2rem;
+}
+
+.about h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 0.960rem;
+    text-align: justify;
+}
+
+.plans {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.plans h1 {
+    font-size: 1rem;
+}
+
+.plans p {
+    font-size: 0.950rem;
+    text-align: justify;
+}
+
+.plans button {
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(71, 139, 228);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.plans .plan1 {
+    padding: 1rem;
+}
+
+.plans .plan2 {
+    padding: 1rem;
+}
+
+.plans .plan3 {
+    padding: 1rem;
+}
