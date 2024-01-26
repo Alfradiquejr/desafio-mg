@@ -95,13 +95,16 @@
 }
 
 .plans button:hover {
-    transform: rotate(2deg);
+    transform: rotate(5deg);
+    background-color: #571515;
+    color: #fff;
+    border: none;
 }
 
 .plans .plan1 {
     padding: 0.5rem;
     background-color: rgb(163, 126, 197);
-    width: 50rem;
+    width: 50vw;
     border-radius: 1rem;
     margin: 2rem;
 }
@@ -109,7 +112,7 @@
 .plans .plan2 {
     padding: 0.5rem;
     background-color: rgb(145, 194, 214);
-    width: 50rem;
+    width: 50vw;
     border-radius: 1rem;
     margin: 2rem;
 }
@@ -117,7 +120,7 @@
 .plans .plan3 {
     padding: 0.5rem;
     background-color: rgb(156, 245, 190);
-    width: 50rem;
+    width: 50vw;
     border-radius: 1rem;
     margin: 2rem;
 }
