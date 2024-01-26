@@ -61,8 +61,11 @@
 }
 
 .plans {
-    margin-top: 1.5rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
 }
 
 .plans h1 {
@@ -72,26 +75,49 @@
 .plans p {
     font-size: 0.950rem;
     text-align: justify;
+    margin: 0.625rem 0 0.625rem 0;
 }
 
 .plans button {
     text-decoration: none;
     text-transform: none;
-    color: rgb(71, 139, 228);
+    color: rgb(25, 88, 172);
     cursor: pointer;
     background-color: transparent;
     border: none;
+    border: 1px solid #000;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+    width: 103px;
     outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.plans button:hover {
+    transform: rotate(2deg);
 }
 
 .plans .plan1 {
-    padding: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(163, 126, 197);
+    width: 50rem;
+    border-radius: 1rem;
+    margin: 2rem;
 }
 
 .plans .plan2 {
-    padding: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(145, 194, 214);
+    width: 50rem;
+    border-radius: 1rem;
+    margin: 2rem;
 }
 
 .plans .plan3 {
-    padding: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(156, 245, 190);
+    width: 50rem;
+    border-radius: 1rem;
+    margin: 2rem;
 }
